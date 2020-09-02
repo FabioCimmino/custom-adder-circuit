@@ -1,0 +1,27 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -96 -72 112 72
+WINDOW 0 8 -72 Bottom 2
+WINDOW 3 1 79 Center 0
+SYMATTR Value dflipflop_3bit
+PIN -96 -48 LEFT 8
+PINATTR PinName A1
+PINATTR SpiceOrder 1
+PIN -96 -16 LEFT 8
+PINATTR PinName A2
+PINATTR SpiceOrder 2
+PIN -96 16 LEFT 8
+PINATTR PinName A3
+PINATTR SpiceOrder 3
+PIN -96 48 LEFT 8
+PINATTR PinName clock
+PINATTR SpiceOrder 4
+PIN 112 -32 RIGHT 8
+PINATTR PinName A1_out
+PINATTR SpiceOrder 5
+PIN 112 0 RIGHT 8
+PINATTR PinName A2_out
+PINATTR SpiceOrder 6
+PIN 112 32 RIGHT 8
+PINATTR PinName A3_out
+PINATTR SpiceOrder 7

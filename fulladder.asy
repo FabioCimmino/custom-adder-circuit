@@ -1,0 +1,20 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -64 -56 64 56
+WINDOW 0 0 -56 Bottom 2
+SYMATTR Value fulladder
+PIN -64 -32 LEFT 8
+PINATTR PinName Ai
+PINATTR SpiceOrder 1
+PIN -64 0 LEFT 8
+PINATTR PinName Bi
+PINATTR SpiceOrder 2
+PIN -64 32 LEFT 8
+PINATTR PinName Ci
+PINATTR SpiceOrder 3
+PIN 64 -16 RIGHT 8
+PINATTR PinName Ci+1
+PINATTR SpiceOrder 4
+PIN 64 16 RIGHT 8
+PINATTR PinName Yi
+PINATTR SpiceOrder 5

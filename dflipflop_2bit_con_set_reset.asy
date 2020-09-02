@@ -1,0 +1,26 @@
+Version 4
+SymbolType BLOCK
+RECTANGLE Normal -96 -88 112 88
+WINDOW 0 8 -88 Bottom 2
+SYMATTR Value dflipflop_2bit_con_set_reset
+PIN -96 -64 LEFT 8
+PINATTR PinName A1
+PINATTR SpiceOrder 1
+PIN -96 -32 LEFT 8
+PINATTR PinName A2
+PINATTR SpiceOrder 2
+PIN -96 0 LEFT 8
+PINATTR PinName clock
+PINATTR SpiceOrder 3
+PIN -96 32 LEFT 8
+PINATTR PinName reset
+PINATTR SpiceOrder 4
+PIN -96 64 LEFT 8
+PINATTR PinName set
+PINATTR SpiceOrder 5
+PIN 112 -16 RIGHT 8
+PINATTR PinName A1_out
+PINATTR SpiceOrder 6
+PIN 112 16 RIGHT 8
+PINATTR PinName A2_out
+PINATTR SpiceOrder 7
